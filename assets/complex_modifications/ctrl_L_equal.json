@@ -1,0 +1,182 @@
+{
+  "title": "Emacs Key Binds",
+  "rules": [
+    {
+      "description": "Ctrl + ; = Equal",
+      "manipulators": [
+        {
+          "type": "basic",
+          "from": {
+            "key_code": "semicolon",
+            "modifiers": {
+              "mandatory": [
+                "left_control"
+              ]
+            }
+          },
+          "to": [
+            {
+              "key_code": "equal_sign"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "description": "Ctrl + ' = $",
+      "manipulators": [
+        {
+          "type": "basic",
+          "from": {
+            "key_code": "quote",
+            "modifiers": {
+              "mandatory": [
+                "left_control"
+              ]
+            }
+          },
+          "to": [
+            {
+              "key_code": "4",
+              "modifiers": "left_shift"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "description": "Ctrl + . = ->",
+      "manipulators": [
+        {
+          "type": "basic",
+          "from": {
+            "key_code": "period",
+            "modifiers": {
+              "mandatory": [
+                "left_control"
+              ]
+            }
+          },
+          "to": [
+            {
+              "key_code": "hyphen"
+            },
+            {
+              "key_code": "period",
+              "modifiers": "left_shift"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "description": "Ctrl + / = =>",
+      "manipulators": [
+        {
+          "type": "basic",
+          "from": {
+            "key_code": "slash",
+            "modifiers": {
+              "mandatory": [
+                "left_control"
+              ]
+            }
+          },
+          "to": [
+            {
+              "key_code": "equal_sign"
+            },
+            {
+              "key_code": "period",
+              "modifiers": "left_shift"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "description": "Ctrl + F = Right Arrow",
+      "manipulators": [
+        {
+          "type": "basic",
+          "from": {
+            "key_code": "f",
+            "modifiers": {
+              "mandatory": [
+                "left_control"
+              ]
+            }
+          },
+          "to": [
+            {
+              "key_code": "right_arrow"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "description": "Ctrl + B = Left Arrow",
+      "manipulators": [
+        {
+          "type": "basic",
+          "from": {
+            "key_code": "b",
+            "modifiers": {
+              "mandatory": [
+                "left_control"
+              ]
+            }
+          },
+          "to": [
+            {
+              "key_code": "left_arrow"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "description": "Ctrl + P = Up Arrow",
+      "manipulators": [
+        {
+          "type": "basic",
+          "from": {
+            "key_code": "p",
+            "modifiers": {
+              "mandatory": [
+                "left_control"
+              ]
+            }
+          },
+          "to": [
+            {
+              "key_code": "up_arrow"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "description": "Ctrl + N = Down Arrow",
+      "manipulators": [
+        {
+          "type": "basic",
+          "from": {
+            "key_code": "n",
+            "modifiers": {
+              "mandatory": [
+                "left_control"
+              ]
+            }
+          },
+          "to": [
+            {
+              "key_code": "down_arrow"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
